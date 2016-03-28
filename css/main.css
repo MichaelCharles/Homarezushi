@@ -12,14 +12,23 @@
 	background: url('../img/header.jpg') center / cover;
 	justify-content: center;
 	align-items: center;
-	height: 90vh;
 	width: 100vw;
+	height: 90vh;
 }
 
 .big-logo div {
 	margin: 0 auto;
 	width: 80%;
 	max-width: 600px;
+}
+
+@media (max-width: 1012px) {
+	.big-logo {
+		height: auto;
+	}
+	.big-logo div {
+		padding: 4em 2em;
+	}
 }
 
 .big-logo img {
