@@ -1,0 +1,40 @@
+/* HEADER AND MAIN LOGO */
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+
+.big-logo {
+	display: flex;
+	background: url('../img/header.jpg') center / cover;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+	width: 100vw;
+}
+
+.big-logo div {
+	margin: 0 auto;
+	width: 80%;
+	max-width: 600px;
+}
+
+.big-logo img {
+	width: 100%;
+}
+
+/* MAIN */
+
+main {
+	width: 100%;
+}
+
+.main-info {
+	background: #673AB7;
+	min-height: 100vh;
+	width: 100%;
+}
+
