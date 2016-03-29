@@ -1,5 +1,10 @@
 /* HEADER AND MAIN LOGO */
 
+.demo-layout-transparent {
+	height: 90vh;
+	background: url('../img/header.jpg') center / cover;
+}
+
 .demo-layout-transparent .mdl-layout__header,
 .demo-layout-transparent .mdl-layout__drawer-button {
   /* This background is dark, so we set text to white. Use 87% black instead if
@@ -9,7 +14,7 @@
 
 .big-logo {
 	display: flex;
-	background: url('../img/header.jpg') center / cover;
+	
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
