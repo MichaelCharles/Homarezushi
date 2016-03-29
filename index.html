@@ -54,14 +54,74 @@
 
         <!-- Begin site content -->
 		
-		<div id="header"></div>
-        <div id="content"></div>
+<div class="resturaunt-website mdl-layout mdl-js-layout">
+
+  <header class="mdl-layout__header mdl-layout__header--transparent mdl-layout__header--scroll">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title"><!-- Place title here if desired. --></span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Info</a>
+        <a class="mdl-navigation__link" href="">Menu</a>
+        <a class="mdl-navigation__link" href="">Contact</a>
+        <a class="mdl-navigation__link ja" href="">日本語</a>
+      </nav>
+    </div>
+	
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Navigation</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Info</a>
+      <a class="mdl-navigation__link" href="">Menu</a>
+      <a class="mdl-navigation__link" href="">Contact</a>
+      <a class="mdl-navigation__link ja" href="">日本語</a>
+    </nav>
+  </div>  <main class="mdl-layout__content">
+	<div class="big-logo parallax-window" data-parallax="scroll" data-position="top" data-bleed="100" data-image-src="img/header.jpg" data-natural-width="2048" data-natural-height="1152" data-float="0.5" data-speed="0.5"><div><img src="img/logo-white.png" alt="誉寿司"></div></div> <!-- Put the big Homarezushi logo here -->
+	<main>
+	
+	<div class="main-info mdl-color--primary">
+	<div class="mdl-grid">
+	<div class="mdl-cell mdl-cell--8-col">
+	
+	    <div id="map"></div>
+		
+    <script src="js/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9zBQRTA4fuQVKGug3FTliief1QhjjnDc&libraries=places&callback=initMap"
+    async defer></script>
+	
+	</div>
+		<div class="main-info_information mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop mdl-color-text--white">
+		
+		<h5>Lunch Hours</h5>
+		<p>10am-1pm</p>
+		<h5>Dinner Hours</h5>
+		<p>4pm-8pm</p>
+		<h5>Telephone</h5>
+		<p>090-4881-0511</p>
+		<h5>Address</h5>
+		<p>Akita-ken, Akita-shi, Niidamidori-chou 3-10-302</p>
+		
+		</div>
+	</div>
+	</div>
+ </main>
+
+
+</div> <!-- /MDL wrapper element -->
+
 		<div id="footer"></div>
 		
 		
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
+
+		<script src="js/vendor/parallax.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
