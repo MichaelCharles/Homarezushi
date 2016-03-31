@@ -68,11 +68,18 @@ body {
     min-height: 100vh;
     padding: 1em;
     position: relative;
-    z-index: 1;
+    z-index: 100;
 }
 
 .basic-info p {
     font-size: 24px;
+    line-height: 1.5em;
+}
+
+.basic-info i {
+    font-size: 42px;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
 }
 
 /* ATMOSPHERE */
@@ -82,7 +89,7 @@ body {
     min-height: 100vh;
     background-image: url("../img/japanese-paper.jpg");
     background-color: white;
-    z-index: 0;
+    z-index: 99;
 }
 
 .atmosphere .mdl-card__media {
@@ -117,6 +124,64 @@ body {
 /* MENU */
 
 .menu {
+    position: relative;
+    z-index: 98;
     min-height: 100vh;
     padding: 2em 1em;
+}
+
+/* GALLERY */
+
+.gallery {
+    position: relative;
+    z-index: 97;
+    min-height: 100vh;
+}
+
+.gallery .mdl-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.gallery__picture-1 {
+    background-image: url("../img/gallery/counter-wide.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery__picture-2 {
+    background-image: url("../img/gallery/counter-items-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery__picture-3 {
+    background-image: url("../img/gallery/counter-items-2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery__picture-4 {
+    background-image: url("../img/gallery/friends-forever.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery__picture-5 {
+    background-image: url("../img/gallery/fatty-tuna.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery__picture-6 {
+    background-image: url("../img/gallery/big-set.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery__picture-7 {
+    background-image: url("../img/gallery/take-out.jpg");
+    background-size: cover;
+    background-position: center;
 }
