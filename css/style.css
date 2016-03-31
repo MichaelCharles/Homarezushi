@@ -145,9 +145,9 @@ body {
 }
 
 .gallery__picture-1 {
-    background-image: url("../img/gallery/pano-shop.jpg");
+    background-image: url("../img/gallery/magically-delicious.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .gallery__picture-2 {
@@ -206,16 +206,25 @@ body {
     margin-bottom: 0.5em;
 }
 
-.reservations .important-info {
+
+
+.important-info i,
+.important-info p {
     font-size: 24px;
     line-height: 1.5em;
     font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .important-info i {
-    maring-bottom: 0;
+    margin-bottom: 0;
     margin-right: .25em;
+}
+
+/* CHEF */
+
+.chef .chef-image {
+    background-image: url("../img/kenjiro-working.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
 }
