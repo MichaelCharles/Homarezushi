@@ -23,6 +23,15 @@
     background-position: center;
 }
 
+.black-divider {
+    border: 0;
+    height: 25px;
+    background-image: url("../img/divider-black.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 body {
     background-color: #e2e2e2;
 }
@@ -86,7 +95,7 @@ body {
   background-position: center;
 }
 .family-card > .mdl-card__media {
-  background-image: url('../img/family-dinner.jpg');
+  background-image: url('../img/kakuta-family.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -103,4 +112,11 @@ body {
 
 .atmosphere-card-buffer {
     height: 53px;
+}
+
+/* MENU */
+
+.menu {
+    min-height: 100vh;
+    padding: 2em 1em;
 }
