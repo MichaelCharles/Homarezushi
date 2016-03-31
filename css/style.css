@@ -1,3 +1,5 @@
+/* GENERAL */
+
 .text--ja {
 	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
@@ -25,6 +27,8 @@ body {
     background-color: #e2e2e2;
 }
 
+/* HEADER */
+
 .header-parallax {
     background-image: url("../img/header.jpg");
     background-attachment: fixed;
@@ -49,21 +53,27 @@ body {
     background-repeat: no-repeat;
 }
 
+/* BASIC-INFO */
+
 .basic-info {
     min-height: 100vh;
     padding: 1em;
+    position: relative;
+    z-index: 1;
 }
 
 .basic-info p {
     font-size: 24px;
 }
 
+/* ATMOSPHERE */
+
 .atmosphere {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("../img/japanese-paper.jpg");
-    z-index: -1;
     background-color: white;
+    z-index: 0;
 }
 
 .atmosphere .mdl-card__media {
@@ -84,4 +94,13 @@ body {
   background-image: url('../img/sashimi-plate.jpg');
   background-size: cover;
   background-position: center;
+}
+
+.atmosphere .mdl-card__actions {
+    position: absolute;
+    bottom: 0;
+}
+
+.atmosphere-card-buffer {
+    height: 53px;
 }
