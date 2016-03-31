@@ -222,9 +222,29 @@ body {
 
 /* CHEF */
 
+.chef {
+    position: relative;
+    z-index: 80;
+}
+
 .chef .chef-image {
     background-image: url("../img/kenjiro-working.jpg");
     background-size: cover;
     background-position: center;
     height: 400px;
+}
+
+/* PARALLAX DIVIDER 1 */
+
+.parallax-divider-1 {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 33vh;
+}
+
+.parallax-divider-1 {
+    background-image: url("../img/gallery/pano-shop.jpg");
+    z-index: 79;
 }
