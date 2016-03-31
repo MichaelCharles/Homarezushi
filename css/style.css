@@ -145,7 +145,7 @@ body {
 }
 
 .gallery__picture-1 {
-    background-image: url("../img/gallery/counter-wide.jpg");
+    background-image: url("../img/gallery/pano-shop.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -184,4 +184,38 @@ body {
     background-image: url("../img/gallery/take-out.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* RESERVATIONS */
+
+.reservations {
+    min-height: 100vh;
+    padding: 1em;
+    position: relative;
+    z-index: 100;
+}
+
+.reservations p {
+    font-size: 24px;
+    line-height: 1.5em;
+}
+
+.reservations i {
+    font-size: 42px;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.reservations .important-info {
+    font-size: 24px;
+    line-height: 1.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.important-info i {
+    maring-bottom: 0;
+    margin-right: .25em;
 }
