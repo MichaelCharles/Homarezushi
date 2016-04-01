@@ -92,6 +92,12 @@ body {
     z-index: 99;
 }
 
+.atmosphere .mdl-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 .atmosphere .mdl-card__media {
     height: 200px;
 }
@@ -250,7 +256,7 @@ body {
 
 .parallax-divider-1 {
     background-image: url("../img/gallery/pano-shop.jpg");
-    z-index: 79;
+    z-index: 40;
 }
 
 /* IMAGE OVERLAY MODAL */
