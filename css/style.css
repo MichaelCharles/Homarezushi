@@ -186,6 +186,10 @@ body {
     background-position: center;
 }
 
+.gallery__picture--clickable {
+    cursor: pointer;
+}
+
 /* RESERVATIONS */
 
 .reservations {
@@ -247,4 +251,29 @@ body {
 .parallax-divider-1 {
     background-image: url("../img/gallery/pano-shop.jpg");
     z-index: 79;
+}
+
+/* IMAGE OVERLAY MODAL */
+
+.modal-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modal-overlay__image {
+    max-height: 80%;
+    max-width: 80%;
+}
+
+.modal-overlay button {
+    margin: 16px;
 }
