@@ -38,6 +38,10 @@ body {
 
 /* HEADER */
 
+.mdl-navigation__link {
+    padding: 8px 0 8px 20px !important;
+}
+
 .header-parallax {
     background-image: url("../img/header.jpg");
     background-attachment: fixed;
@@ -108,12 +112,12 @@ body {
   background-position: center;
 }
 .family-card > .mdl-card__media {
-  background-image: url('../img/kakuta-family.jpg');
+  background-image: url('../img/family-work.jpg');
   background-size: cover;
   background-position: center;
 }
 .fresh-card > .mdl-card__media {
-  background-image: url('../img/sashimi-plate.jpg');
+  background-image: url('../img/fresh-in-tank.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -151,9 +155,9 @@ body {
 }
 
 .gallery__picture-1 {
-    background-image: url("../img/gallery/magically-delicious.jpg");
+    background-image: url("../img/gallery/big-set.jpg");
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
 
 .gallery__picture-2 {
@@ -169,25 +173,26 @@ body {
 }
 
 .gallery__picture-4 {
-    background-image: url("../img/gallery/friends-forever.jpg");
+    background-image: url("../img/gallery/anago-bowl.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .gallery__picture-5 {
-    background-image: url("../img/gallery/fatty-tuna.jpg");
+    background-image: url("../img/gallery/sushi-plate.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .gallery__picture-6 {
-    background-image: url("../img/gallery/big-set.jpg");
+    background-image: url("../img/gallery/magically-delicious.jpg");
+
     background-size: cover;
     background-position: center;
 }
 
 .gallery__picture-7 {
-    background-image: url("../img/gallery/take-out.jpg");
+    background-image: url("../img/gallery/side-dish.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -243,6 +248,43 @@ body {
     background-position: center;
     height: 400px;
 }
+
+/************************
+    Sky Value Corner
+*************************/
+#sky-value img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.sky-value {
+    min-height: 100vh;
+    padding: 1em;
+    position: relative;
+    z-index: 100;
+}
+
+/***********************
+    Catering
+************************/
+.catering {
+    min-height: 100vh;
+    padding: 5em 0;
+    position: relative;
+    z-index: 90;
+}
+
+#catering .document {
+    padding: 0 2em;
+}
+
+#catering img {
+    max-width: 100%;
+    margin: 0 auto 1em auto;
+    border-radius: 3px;
+    display: block;
+}
+
 
 /* PARALLAX DIVIDER 1 */
 
