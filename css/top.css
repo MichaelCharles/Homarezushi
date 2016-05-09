@@ -1,0 +1,103 @@
+body {
+    background-color: #171c21;
+    background-image: url("../img/cover-image.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffb;
+}
+
+img,
+div {
+    display: block;
+}
+
+#top-box {
+    height: 3em;
+    background-color: brown;
+    background-image: url('en/images/woodtexture.png');
+    -webkit-box-shadow: 0 2px 4px -2px #000;
+    -moz-box-shadow: 0 2px 4px -2px #000;
+    box-shadow: 0 2px 4px -2px #000;
+    z-index: 1000
+}
+
+#main-wrap {
+    border-radius: 0;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#homare-logo {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 6em;
+}
+
+#choices {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+#choice-japanese {
+    float: left;
+    padding-left: 17%;
+}
+
+#choice-english {
+    float: right;
+    padding-right: 17%;
+}
+
+#choice-japanese,
+#choice-english {
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+
+img.flag {
+    float: left;
+    padding-right: 1em;
+    height: 18px;
+}
+
+#tray {
+    background-image: url("en/images/blackfade.jpg");
+    background-color: #171c21;
+    height: 300px;
+}
+
+@media (max-width: 750px) {
+    #choice-english, #choice-japanese {
+        float: none;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 120px;
+    }
+    #top-box {
+        height: 0px;
+    }
+    #homare-logo {
+        width: 90%;
+        marin-top: 2em;
+    }
+}
+
+.clear {
+    clear: both;
+}
