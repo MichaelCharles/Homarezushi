@@ -4,7 +4,7 @@ var language = navigator.language || navigator.browserLanguage; //for IE
 if (language) {
     if (language === "ja-JP") {
         // route to ja
-        window.location.replace("http://www.homarezushi.com/ja");
+        window.location.replace("http://www.homarezushi.com/en");
     }
     else {
         // route to en
