@@ -1,0 +1,40 @@
+.welcome {
+    font-size: 24px;
+}
+
+.welcome h2 {
+    font-size: 48px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+img.welcome-divider {
+    height: 30px;
+    max-width: 300px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.small-card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-card {
+    text-align: center;
+    width: 100%;
+    max-width: 320px;
+    min-width: 300px;
+    box-sizing: border-box;
+    margin: 1em;
+    font-size: 0.75em;
+}
+
+.small-card-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

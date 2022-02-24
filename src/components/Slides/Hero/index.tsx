@@ -1,4 +1,5 @@
 import SlidesCommon from "../Common";
+
 const { ParallaxSlide } = SlidesCommon;
 
 const Hero = () => (
@@ -15,11 +16,12 @@ const Hero = () => (
                 alignItems: "center",
                 width: "100%",
                 color: "white",
-                padding: "0px 1em"
             }}
         >
-            <div> ≡ 誉寿司 </div>
-            <header>option 1, 2, and 3</header>
+            <div>{` `}</div>
+            <header style={{ padding: "0px 1em", flex: 1, textAlign: "right" }}>
+                English
+            </header>
         </header>
         <div
             style={{
@@ -33,7 +35,8 @@ const Hero = () => (
                 alt="誉寿司"
                 src="images/logo-white.png"
                 style={{
-                    maxWidth: "60vw",
+                    width: "60vw",
+                    maxWidth: "800px",
                     paddingBottom: "60px",
                 }}
             />

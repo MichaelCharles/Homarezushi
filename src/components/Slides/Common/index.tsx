@@ -25,7 +25,9 @@ const GradientSlide = ({
         <div
             className="slide"
             style={{ ...flexStyles, ...bgStyles, ...customStyles }}
-        ></div>
+        >
+            {children}
+        </div>
     );
 };
 
