@@ -1,0 +1,32 @@
+.footer {
+    color: #c3c3c9;
+    background-color: rgb(66, 66, 66);
+    padding: 1em;
+    display: flex;
+}
+
+.footer-focus-text,
+.footer-text {
+    padding: 1em;
+    white-space: nowrap;
+}
+
+.footer-focus-text {
+    color: #f2f2f2;
+    font-weight: bold;
+}
+
+.footer-wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 400px) {
+    .footer-focus-text,
+    .footer-text {
+        white-space: unset;
+    }
+}

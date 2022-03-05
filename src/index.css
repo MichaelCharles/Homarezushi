@@ -22,3 +22,9 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
         monospace;
 }
+
+.ss {
+    font-size: 1px;
+    height: 1px;
+    width: 1px;
+}

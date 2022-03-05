@@ -1,8 +1,8 @@
-.welcome {
+.about {
     font-size: 24px;
 }
 
-.welcome h2 {
+.about h2 {
     font-size: 48px;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -33,14 +33,15 @@ img.welcome-divider {
     font-size: 0.75em;
 }
 
-.small-card-area {
+.contact-small-card-area {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 750px) {
-    .small-card-area {
+    .contact-small-card-area {
         flex-direction: column;
         align-items: center;
     }

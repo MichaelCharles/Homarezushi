@@ -59,6 +59,7 @@
     color: #4b4b4e;
     text-decoration: none;
     padding: 0.5em 2em;
+    width: 100%;
 }
 .bm-item:hover {
     background: rgba(0, 0, 0, 0.1);
