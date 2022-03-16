@@ -5,7 +5,6 @@ import LanguageSwitcher from "./LanguageSwitcher";
 import { useSelector } from "react-redux";
 import { selectLang } from "../../../features/lang/langSlice";
 import { AttentionSeeker } from "react-awesome-reveal";
-import { relative } from "path";
 const { solid } = require("@fortawesome/fontawesome-svg-core/import.macro");
 
 const HeroLogo = styled.img`
