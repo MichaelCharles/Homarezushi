@@ -2,9 +2,9 @@ import styled from "styled-components";
 import "./slide.css";
 
 const windowHeight =
-    window.outerHeight > window.outerWidth
+    window.outerHeight > window.innerWidth
         ? window.outerHeight
-        : window.outerWidth;
+        : window.innerWidth;
 
 const ParallaxSlideBase =
     window.navigator.userAgent.match(/iPad/i) ||
